@@ -12,6 +12,7 @@ public class PositionOptions {
   Boolean enableHighAccuracy = false;
   long maximumAge;
   long timeout;
+  int  scanSpan;
   String coorType;
 
   public PositionOptions(JSONObject options) {
@@ -62,5 +63,15 @@ public class PositionOptions {
     this.timeout = timeout;
     return this;
   }
+  
+  public int getScanSpan() {
+    return scanSpan;
+  }
+
+  public PositionOptions setScanSpan(long scanSpan) {
+    this.scanSpan = scanSpan;
+    return this;
+  }
+  
 
 }
