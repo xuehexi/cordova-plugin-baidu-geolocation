@@ -53,7 +53,7 @@
 
     <config-file target="AndroidManifest.xml" parent="/manifest/application">
       <service android:name="com.baidu.location.f" android:enabled="true" android:process=":remote"></service>
-      <meta-data android:name="com.baidu.lbsapi.API_KEY" android:value="$API_KEY"/>
+      <meta-data android:name="com.baidu.lbsapi.API_KEY" android:value="auBa8AmU4K0TZlufP5vfcvxv"/>
     </config-file>
 
   </platform>
